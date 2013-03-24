@@ -8,11 +8,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "InstantOstrich/AppDelegate.h"
-         timestampString = "385845591.565259"
+         timestampString = "385847684.857498"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "23"
-         endingLineNumber = "23"
+         startingLineNumber = "21"
+         endingLineNumber = "21"
          landmarkName = "@interface AppDelegate"
          landmarkType = "2">
       </FileBreakpoint>
