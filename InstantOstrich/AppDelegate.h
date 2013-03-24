@@ -14,5 +14,8 @@
 - (IBAction)aboutfm:(id)sender;
 - (IBAction)aboutclose:(id)sender;
 @property (unsafe_unretained) IBOutlet NSWindow *about;
+- (IBAction)vlabel:(id)sender;
+@property (weak) IBOutlet NSTextField *verlabel;
+
 
 @end
