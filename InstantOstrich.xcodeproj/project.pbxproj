@@ -16,7 +16,6 @@
 		B66FBB8516FEACCD003B908F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B66FBB8316FEACCD003B908F /* MainMenu.xib */; };
 		B66FBB8C16FEB3FA003B908F /* ostrich.mov in Resources */ = {isa = PBXBuildFile; fileRef = B66FBB8B16FEB3FA003B908F /* ostrich.mov */; };
 		B66FBB8E16FEB575003B908F /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B66FBB8D16FEB575003B908F /* QTKit.framework */; };
-		B66FBB9416FECB26003B908F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B66FBB9316FECB26003B908F /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,7 +43,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B66FBB9416FECB26003B908F /* QuartzCore.framework in Frameworks */,
 				B66FBB8E16FEB575003B908F /* QTKit.framework in Frameworks */,
 				B66FBB6F16FEACCC003B908F /* Cocoa.framework in Frameworks */,
 			);
