@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B660E75116FF9D9800751C37 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = B660E75016FF9D9800751C37 /* icon.icns */; };
 		B66FBB6F16FEACCC003B908F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B66FBB6E16FEACCC003B908F /* Cocoa.framework */; };
 		B66FBB7916FEACCD003B908F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B66FBB7716FEACCD003B908F /* InfoPlist.strings */; };
 		B66FBB7B16FEACCD003B908F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B66FBB7A16FEACCD003B908F /* main.m */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B660E75016FF9D9800751C37 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
 		B66FBB6B16FEACCC003B908F /* InstantOstrich.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstantOstrich.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B66FBB6E16FEACCC003B908F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		B66FBB7116FEACCC003B908F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -54,6 +56,7 @@
 		B66FBB6216FEACCC003B908F = {
 			isa = PBXGroup;
 			children = (
+				B660E75016FF9D9800751C37 /* icon.icns */,
 				B66FBB9316FECB26003B908F /* QuartzCore.framework */,
 				B66FBB8D16FEB575003B908F /* QTKit.framework */,
 				B66FBB7416FEACCC003B908F /* InstantOstrich */,
@@ -168,6 +171,7 @@
 				B66FBB7F16FEACCD003B908F /* Credits.rtf in Resources */,
 				B66FBB8516FEACCD003B908F /* MainMenu.xib in Resources */,
 				B66FBB8C16FEB3FA003B908F /* ostrich.mov in Resources */,
+				B660E75116FF9D9800751C37 /* icon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
