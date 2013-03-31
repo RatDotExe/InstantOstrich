@@ -16,6 +16,11 @@
 @property (unsafe_unretained) IBOutlet NSWindow *about;
 - (IBAction)vlabel:(id)sender;
 @property (weak) IBOutlet NSTextField *verlabel;
+- (IBAction)eeggclose:(id)sender;
+@property (unsafe_unretained) IBOutlet NSWindow *eegg;
+- (IBAction)eeggbutton:(id)sender;
+- (IBAction)anlabel:(id)sender;
+@property (weak) IBOutlet NSTextField *anlabel;
 
 
 @end
