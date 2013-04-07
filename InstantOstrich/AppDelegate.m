@@ -27,10 +27,10 @@
 
 - (IBAction)vlabel:(id)sender {
     if ([_verlabel.stringValue isEqual: @"Version 2.1"]) {
-    _verlabel.stringValue = [NSString stringWithFormat:@"Made by: Rat_Dot_Exe"];
+    _verlabel.stringValue = @"Made by: Rat_Dot_Exe";
 }
     else if ([_verlabel.stringValue isEqual: @"Made by: Rat_Dot_Exe"]) {
-    _verlabel.stringValue = [NSString stringWithFormat:@"Version 2.1"];
+    _verlabel.stringValue = @"Version 2.1";
     }
 }
 - (IBAction)eeggclose:(id)sender {
@@ -42,10 +42,10 @@
 
 - (IBAction)anlabel:(id)sender {
     if ([_anlabel.stringValue isEqual: @"Instant Ostrich"]) {
-        _anlabel.stringValue = [NSString stringWithFormat:@"L!OL!OL!OL!OL!"];
+        _anlabel.stringValue = @"L!OL!OL!OL!OL!";
     }
     else if ([_anlabel.stringValue isEqual: @"L!OL!OL!OL!OL!"]) {
-        _anlabel.stringValue = [NSString stringWithFormat:@"Instant Ostrich"];
+        _anlabel.stringValue = @"Instant Ostrich";
     }
 }
 @end
